@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import React from 'react';
-import Component2 from './Component2';
+import Component2 from './Tickets/Component2';
 import Component1 from './Component1';
 function App() {
   return (
