@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import React from 'react';
 import Component2 from './Tickets/Component2';
+import Component3 from './Tickets/Component3';
 import Component1 from './Component1';
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
         <Routes>
           <Route path="/1" element={<Component1/>} />
           <Route path="/2" element={<Component2/>} />
+          <Route path="/3" element={<Component3/>} />
           <Route path="*" element={<div > Not found </div>} />
         </Routes>
       </Router>
