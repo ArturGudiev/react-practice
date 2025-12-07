@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Component2, Component3, Component4, Component5, Component7, Component7a } from './Tickets';
+import { Component2, Component3, Component4, Component5, Component7, Component7a, Component8, Component8a } from './Tickets';
 import Component1 from './Component1';
 function App() {
   return (
@@ -29,6 +29,8 @@ function App() {
             <Route path="/5" element={<Component5 />} />
             <Route path="/7" element={<Component7 />} />
             <Route path="/7a" element={<Component7a />} />
+            <Route path="/8" element={<Component8 />} />
+            <Route path="/8a" element={<Component8a />} />
             <Route path="*" element={<div > Not found </div>} />
           </Routes>
         </Router>

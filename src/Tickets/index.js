@@ -4,4 +4,6 @@
    export { default as Component5 } from './Component5';
    export { default as Component7 } from './Component7';
    export { default as Component7a } from './Component7a';
+   export { default as Component8 } from './Component8';
+   export { default as Component8a } from './Component8a';
    
