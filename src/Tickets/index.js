@@ -8,4 +8,6 @@
    export { default as Component8a } from './Component8a';
    export { default as Component9 } from './Component9';
    export { default as Component9a } from './Component9a';
+   export { default as Component10 } from './Component10';
+   export { default as Component10a } from './Component10a';
    
