@@ -1,3 +1,4 @@
+/* Modify it using useReducer */
 import { useState } from 'react';
 
 const Component10 = () => {
