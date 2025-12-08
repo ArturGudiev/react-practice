@@ -1,5 +1,5 @@
 /*
-    Set right printints
+    Set right printings
 */
 
 import { useState } from 'react';
