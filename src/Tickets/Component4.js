@@ -1,3 +1,4 @@
+/* Make 2 buttons to share 1 counter */
 import { useState } from 'react';
 
 
