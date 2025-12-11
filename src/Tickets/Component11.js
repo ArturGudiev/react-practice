@@ -1,3 +1,4 @@
+/* Access count and setCount using context*/ 
 import { useState } from 'react';
 
 const Child = ({ count, setCount }) => {
