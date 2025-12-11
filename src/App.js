@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Component2, Component3, Component4, Component5, Component7, Component7a, Component8, Component8a, Component9, Component9a, Component10, Component10a, Component11, Component11a } from './Tickets';
+import { Component2, Component3, Component4, Component5, Component7, Component7a, Component8, Component8a, Component9, Component9a, Component10, Component10a, Component11, Component11a, Component12, Component12a } from './Tickets';
 import Component1 from './Component1';
 function App() {
   return (
@@ -37,6 +37,8 @@ function App() {
             <Route path="/10a" element={<Component10a />} />
             <Route path="/11" element={<Component11 />} />
             <Route path="/11a" element={<Component11a />} />
+            <Route path="/12" element={<Component12 />} />
+            <Route path="/12a" element={<Component12a />} />
             <Route path="*" element={<div > Not found </div>} />
           </Routes>
         </Router>
