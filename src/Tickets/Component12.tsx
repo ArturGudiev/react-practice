@@ -1,3 +1,4 @@
+/** Child component is static but is always rerendered. Fix that! */
 import React, { useState, useEffect } from 'react';
 
 const Child: React.FC = () => {
